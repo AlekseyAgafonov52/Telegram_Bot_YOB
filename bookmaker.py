@@ -8,17 +8,17 @@ def main(message):
     bot.send_message(message.chat.id, 'hello')
 
 
-@bot.message_handler(commands=['events last week'])
+@bot.message_handler(commands=['events_last_week'])
 def main(message):
     bot.send_message(message.chat.id, '')
 
 
-@bot.message_handler(commands=['events todays'])
+@bot.message_handler(commands=['events_todays'])
 def main(message):
     bot.send_message(message.chat.id, '')
 
 
-@bot.message_handler(commands=['events next week'])
+@bot.message_handler(commands=['events_next_week'])
 def main(message):
     bot.send_message(message.chat.id, '')
 
